@@ -1,6 +1,9 @@
 {
   "name": "gitFlow",
-  "version": "1.0.0",
+  "version": "1.158.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  }
 }
